@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F48060C9559B22CB684BAA9 /* libPods-TextMove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 824FF873EACB108081E406A1 /* libPods-TextMove.a */; };
+		E964DDB020410B4200942DE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E964DDAF20410B4200942DE7 /* AppDelegate.m */; };
+		E964DDB320410B4200942DE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E964DDB220410B4200942DE7 /* ViewController.m */; };
+		E964DDB620410B4200942DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E964DDB420410B4200942DE7 /* Main.storyboard */; };
+		E964DDB820410B4200942DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E964DDB720410B4200942DE7 /* Assets.xcassets */; };
+		E964DDBB20410B4200942DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E964DDB920410B4200942DE7 /* LaunchScreen.storyboard */; };
+		E964DDBE20410B4200942DE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E964DDBD20410B4200942DE7 /* main.m */; };
+		E964DDC820410B4300942DE7 /* TextMoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E964DDC720410B4300942DE7 /* TextMoveTests.m */; };
+		E964DDD320410B4300942DE7 /* TextMoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E964DDD220410B4300942DE7 /* TextMoveUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E964DDC420410B4300942DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E964DDA320410B4200942DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E964DDAA20410B4200942DE7;
+			remoteInfo = TextMove;
+		};
+		E964DDCF20410B4300942DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E964DDA320410B4200942DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E964DDAA20410B4200942DE7;
+			remoteInfo = TextMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		824FF873EACB108081E406A1 /* libPods-TextMove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TextMove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A25B678DCC44F27A066E939 /* Pods-TextMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextMove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextMove/Pods-TextMove.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A92412EA452FBAEF1774B1 /* Pods-TextMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextMove.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextMove/Pods-TextMove.release.xcconfig"; sourceTree = "<group>"; };
+		E964DDAB20410B4200942DE7 /* TextMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E964DDAE20410B4200942DE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E964DDAF20410B4200942DE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E964DDB120410B4200942DE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E964DDB220410B4200942DE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E964DDB520410B4200942DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E964DDB720410B4200942DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E964DDBA20410B4200942DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E964DDBC20410B4200942DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E964DDBD20410B4200942DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E964DDC320410B4300942DE7 /* TextMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E964DDC720410B4300942DE7 /* TextMoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMoveTests.m; sourceTree = "<group>"; };
+		E964DDC920410B4300942DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E964DDCE20410B4300942DE7 /* TextMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E964DDD220410B4300942DE7 /* TextMoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMoveUITests.m; sourceTree = "<group>"; };
+		E964DDD420410B4300942DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E964DDA820410B4200942DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F48060C9559B22CB684BAA9 /* libPods-TextMove.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E964DDC020410B4300942DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E964DDCB20410B4300942DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0377B1F7A5D19F532B5D68A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A25B678DCC44F27A066E939 /* Pods-TextMove.debug.xcconfig */,
+				D4A92412EA452FBAEF1774B1 /* Pods-TextMove.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E1EAD9D850530C78B0F27B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				824FF873EACB108081E406A1 /* libPods-TextMove.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E964DDA220410B4200942DE7 = {
+			isa = PBXGroup;
+			children = (
+				E964DDAD20410B4200942DE7 /* TextMove */,
+				E964DDC620410B4300942DE7 /* TextMoveTests */,
+				E964DDD120410B4300942DE7 /* TextMoveUITests */,
+				E964DDAC20410B4200942DE7 /* Products */,
+				0377B1F7A5D19F532B5D68A5 /* Pods */,
+				2E1EAD9D850530C78B0F27B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E964DDAC20410B4200942DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E964DDAB20410B4200942DE7 /* TextMove.app */,
+				E964DDC320410B4300942DE7 /* TextMoveTests.xctest */,
+				E964DDCE20410B4300942DE7 /* TextMoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E964DDAD20410B4200942DE7 /* TextMove */ = {
+			isa = PBXGroup;
+			children = (
+				E964DDAE20410B4200942DE7 /* AppDelegate.h */,
+				E964DDAF20410B4200942DE7 /* AppDelegate.m */,
+				E964DDB120410B4200942DE7 /* ViewController.h */,
+				E964DDB220410B4200942DE7 /* ViewController.m */,
+				E964DDB420410B4200942DE7 /* Main.storyboard */,
+				E964DDB720410B4200942DE7 /* Assets.xcassets */,
+				E964DDB920410B4200942DE7 /* LaunchScreen.storyboard */,
+				E964DDBC20410B4200942DE7 /* Info.plist */,
+				E964DDBD20410B4200942DE7 /* main.m */,
+			);
+			path = TextMove;
+			sourceTree = "<group>";
+		};
+		E964DDC620410B4300942DE7 /* TextMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				E964DDC720410B4300942DE7 /* TextMoveTests.m */,
+				E964DDC920410B4300942DE7 /* Info.plist */,
+			);
+			path = TextMoveTests;
+			sourceTree = "<group>";
+		};
+		E964DDD120410B4300942DE7 /* TextMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E964DDD220410B4300942DE7 /* TextMoveUITests.m */,
+				E964DDD420410B4300942DE7 /* Info.plist */,
+			);
+			path = TextMoveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E964DDAA20410B4200942DE7 /* TextMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E964DDD720410B4300942DE7 /* Build configuration list for PBXNativeTarget "TextMove" */;
+			buildPhases = (
+				9087A68EB40EB5D52E6F3401 /* [CP] Check Pods Manifest.lock */,
+				E964DDA720410B4200942DE7 /* Sources */,
+				E964DDA820410B4200942DE7 /* Frameworks */,
+				E964DDA920410B4200942DE7 /* Resources */,
+				A0C3DE361A29306E7F3D7E57 /* [CP] Embed Pods Frameworks */,
+				D0160BE84861384203B10E81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextMove;
+			productName = TextMove;
+			productReference = E964DDAB20410B4200942DE7 /* TextMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E964DDC220410B4300942DE7 /* TextMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E964DDDA20410B4300942DE7 /* Build configuration list for PBXNativeTarget "TextMoveTests" */;
+			buildPhases = (
+				E964DDBF20410B4300942DE7 /* Sources */,
+				E964DDC020410B4300942DE7 /* Frameworks */,
+				E964DDC120410B4300942DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E964DDC520410B4300942DE7 /* PBXTargetDependency */,
+			);
+			name = TextMoveTests;
+			productName = TextMoveTests;
+			productReference = E964DDC320410B4300942DE7 /* TextMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E964DDCD20410B4300942DE7 /* TextMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E964DDDD20410B4300942DE7 /* Build configuration list for PBXNativeTarget "TextMoveUITests" */;
+			buildPhases = (
+				E964DDCA20410B4300942DE7 /* Sources */,
+				E964DDCB20410B4300942DE7 /* Frameworks */,
+				E964DDCC20410B4300942DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E964DDD020410B4300942DE7 /* PBXTargetDependency */,
+			);
+			name = TextMoveUITests;
+			productName = TextMoveUITests;
+			productReference = E964DDCE20410B4300942DE7 /* TextMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E964DDA320410B4200942DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "卓森";
+				TargetAttributes = {
+					E964DDAA20410B4200942DE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E964DDC220410B4300942DE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E964DDAA20410B4200942DE7;
+					};
+					E964DDCD20410B4300942DE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E964DDAA20410B4200942DE7;
+					};
+				};
+			};
+			buildConfigurationList = E964DDA620410B4200942DE7 /* Build configuration list for PBXProject "TextMove" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E964DDA220410B4200942DE7;
+			productRefGroup = E964DDAC20410B4200942DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E964DDAA20410B4200942DE7 /* TextMove */,
+				E964DDC220410B4300942DE7 /* TextMoveTests */,
+				E964DDCD20410B4300942DE7 /* TextMoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E964DDA920410B4200942DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E964DDBB20410B4200942DE7 /* LaunchScreen.storyboard in Resources */,
+				E964DDB820410B4200942DE7 /* Assets.xcassets in Resources */,
+				E964DDB620410B4200942DE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E964DDC120410B4300942DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E964DDCC20410B4300942DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9087A68EB40EB5D52E6F3401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextMove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C3DE361A29306E7F3D7E57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextMove/Pods-TextMove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0160BE84861384203B10E81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TextMove/Pods-TextMove-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TextMove/Pods-TextMove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E964DDA720410B4200942DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E964DDB320410B4200942DE7 /* ViewController.m in Sources */,
+				E964DDBE20410B4200942DE7 /* main.m in Sources */,
+				E964DDB020410B4200942DE7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E964DDBF20410B4300942DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E964DDC820410B4300942DE7 /* TextMoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E964DDCA20410B4300942DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E964DDD320410B4300942DE7 /* TextMoveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E964DDC520410B4300942DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E964DDAA20410B4200942DE7 /* TextMove */;
+			targetProxy = E964DDC420410B4300942DE7 /* PBXContainerItemProxy */;
+		};
+		E964DDD020410B4300942DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E964DDAA20410B4200942DE7 /* TextMove */;
+			targetProxy = E964DDCF20410B4300942DE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E964DDB420410B4200942DE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E964DDB520410B4200942DE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E964DDB920410B4200942DE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E964DDBA20410B4200942DE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E964DDD520410B4300942DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E964DDD620410B4300942DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E964DDD820410B4300942DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A25B678DCC44F27A066E939 /* Pods-TextMove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZFMA6Y84;
+				INFOPLIST_FILE = TextMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZ.TextMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E964DDD920410B4300942DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A92412EA452FBAEF1774B1 /* Pods-TextMove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZFMA6Y84;
+				INFOPLIST_FILE = TextMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZ.TextMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E964DDDB20410B4300942DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZFMA6Y84;
+				INFOPLIST_FILE = TextMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZ.TextMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextMove.app/TextMove";
+			};
+			name = Debug;
+		};
+		E964DDDC20410B4300942DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZFMA6Y84;
+				INFOPLIST_FILE = TextMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZ.TextMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextMove.app/TextMove";
+			};
+			name = Release;
+		};
+		E964DDDE20410B4300942DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZFMA6Y84;
+				INFOPLIST_FILE = TextMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZ.TextMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextMove;
+			};
+			name = Debug;
+		};
+		E964DDDF20410B4300942DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZFMA6Y84;
+				INFOPLIST_FILE = TextMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZ.TextMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextMove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E964DDA620410B4200942DE7 /* Build configuration list for PBXProject "TextMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E964DDD520410B4300942DE7 /* Debug */,
+				E964DDD620410B4300942DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E964DDD720410B4300942DE7 /* Build configuration list for PBXNativeTarget "TextMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E964DDD820410B4300942DE7 /* Debug */,
+				E964DDD920410B4300942DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E964DDDA20410B4300942DE7 /* Build configuration list for PBXNativeTarget "TextMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E964DDDB20410B4300942DE7 /* Debug */,
+				E964DDDC20410B4300942DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E964DDDD20410B4300942DE7 /* Build configuration list for PBXNativeTarget "TextMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E964DDDE20410B4300942DE7 /* Debug */,
+				E964DDDF20410B4300942DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E964DDA320410B4200942DE7 /* Project object */;
+}
